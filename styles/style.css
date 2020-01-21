@@ -1,20 +1,70 @@
-
-#navigation {
-    float: left;
-    width: 200px;
+.logo{ /* Se usa . cuando es una clase*/
+display:block;
+margin-left: auto;
+margin-right: auto;
+width: 50;
 }
 
-#navigation2 {
-    float: right;
-    width: 200px;
-}
-
-#footer {
-    clear: both;
+a {
+color:#323232;
+text-decoration: none;
 }
 
 
-#content {
-    margin: 0 200px;
+p :hover,li  :hover{
+    background-color: whitesmoke;
 }
 
+html{
+    text-align: -webkit-center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.top{
+padding-left: 90%;
+}
+
+text{
+    width: 5%;
+}
+
+.barraboton, li, p{
+    padding: 2px;
+    display: inline;
+}
+
+input {
+    size: 150px;
+  }
+
+#bar{   /* Se usa # cuando es una ID como vemos en <div id= "x"> */
+position: relative;
+padding-left: 40%;
+padding-top: 10%;
+padding-right: 50%;
+margin: 0;
+}
+
+
+.fleft{
+padding-left: 20em;   
+ display: inline;  
+    margin: 30px;
+}
+
+.fright{
+padding-left: 50rem;
+    display: inline;  
+    margin: 30px;
+}
+#fbar {
+    
+align-content: flex-end;
+        line-height: 40px;
+margin:220px 0px 0px 0px;
+    line-height: 40px;
+    display: inline-flex;
+}
